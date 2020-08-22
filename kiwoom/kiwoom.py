@@ -10,7 +10,7 @@ class Kiwoom(QAxWidget):
         ##### event loop를 실행하기 위한 변수 모음
         self.login_event_loop = QEventLoop()
         ######################################
-        #commit changeaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
         #####초기 셋팅 함수들 바로 실행
         self.get_ocx_instance()#OCX 방식을 파이썬에 사용할 수 있게 변환해 주는 함수
         self.event_slots()  # 키움과 연결하기 위한 시그널/ 슬롯 모음
